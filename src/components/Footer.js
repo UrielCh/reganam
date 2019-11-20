@@ -6,8 +6,8 @@ import grey from '@material-ui/core/colors/grey'
 
 const styles = (theme) => ({
     root: {
-        marginTop: theme.spacing.unit,
-        padding: theme.spacing.unit * 2,
+        marginTop: theme.spacing(1),
+        padding: theme.spacing(2),
         color: grey["500"]
     },
     link: {

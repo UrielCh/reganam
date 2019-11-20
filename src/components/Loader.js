@@ -26,7 +26,7 @@ const styles = theme => ({
         textAlign: 'center',
     },
     msgBox: {
-        margin: theme.spacing.unit * 1,
+        margin: theme.spacing(1),
         marginLeft: 'auto',
         marginRight: 'auto',
         textAlign: 'left'

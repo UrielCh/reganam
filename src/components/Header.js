@@ -28,7 +28,7 @@ const styles = (theme) => ({
         flexGrow: 1
     },
     drawnerButton: {
-        marginRight: theme.spacing.unit * 1
+        marginRight: theme.spacing(1)
     }
 
 })

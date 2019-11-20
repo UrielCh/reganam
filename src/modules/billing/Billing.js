@@ -58,26 +58,26 @@ const mapDispatchToProps = {
 
 const styles = theme => ({
     title: {
-        margin: theme.spacing.unit * 3
+        margin: theme.spacing(3)
     },
     tips: {
         display: 'flex',
         alignItems: 'center',
-        paddingLeft: theme.spacing.unit * 2,
-        marginBottom: theme.spacing.unit * 2,
+        paddingLeft: theme.spacing(2),
+        marginBottom: theme.spacing(2),
     },
     datesSelector: {
-        marginTop: theme.spacing.unit * 2,
-        marginBottom: theme.spacing.unit * 3,
+        marginTop: theme.spacing(2),
+        marginBottom: theme.spacing(3),
         width: '99vw'
     },
     dlButton: {
-        marginBottom: theme.spacing.unit * 2,
+        marginBottom: theme.spacing(2),
     },
     paper: {
         overflowX: 'auto',
-        margin: theme.spacing.unit,
-        marginTop: theme.spacing.unit * 2,
+        margin: theme.spacing(1),
+        marginTop: theme.spacing(2),
     }
 })
 

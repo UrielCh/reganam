@@ -16,7 +16,7 @@ const styles = theme => ({
         textAlign: 'center'
     },
     buttonContainer: {
-        marginTop: theme.spacing.unit * 2,
+        marginTop: theme.spacing(2),
         textAlign: 'center'
     }
 })

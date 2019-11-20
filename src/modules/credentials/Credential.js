@@ -11,11 +11,11 @@ import {getAppInfo, getCredentialInfo} from '../../ovh/api/me'
 
 const styles = theme => ({
     root: {
-        padding: theme.spacing.unit * 2,
-        marginTop: theme.spacing.unit * 1,
-        marginBottom: theme.spacing.unit * 1,
-        marginRight: theme.spacing.unit * 1,
-        marginLeft: theme.spacing.unit * 1,
+        padding: theme.spacing(2),
+        marginTop: theme.spacing(1),
+        marginBottom: theme.spacing(1),
+        marginRight: theme.spacing(1),
+        marginLeft: theme.spacing(1),
     },
     row: {
         '&:hover': {

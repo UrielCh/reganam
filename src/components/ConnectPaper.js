@@ -19,29 +19,29 @@ import Footer from "./Footer"
 
 const styles = theme => ({
     paper: {
-        margin: theme.spacing.unit * 1,
-        marginTop: theme.spacing.unit * 2,
-        padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 3}px ${theme.spacing.unit * 3}px`,
+        margin: theme.spacing(1),
+        marginTop: theme.spacing(2),
+        padding: `${theme.spacing(2)}px ${theme.spacing(3)}px ${theme.spacing(3)}px`,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         [theme.breakpoints.up(500)]: {
-            marginTop: theme.spacing.unit * 9,
+            marginTop: theme.spacing(9),
             width: 400,
             marginLeft: 'auto',
             marginRight: 'auto',
         }
     },
     avatar: {
-        //marginBottom: theme.spacing.unit ,
-        marginTop: theme.spacing.unit,
+        //marginBottom: theme.spacing(1) ,
+        marginTop: theme.spacing(1),
         backgroundColor: theme.palette.secondary.main,
     },
     formControl: {
-        marginTop: theme.spacing.unit * 3,
+        marginTop: theme.spacing(3),
     },
     disclaimer:{
-        marginTop: theme.spacing.unit
+        marginTop: theme.spacing(1)
     }
 })
 

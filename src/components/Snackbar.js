@@ -40,7 +40,7 @@ const styles = theme => ({
     },
     icon: {
         fontSize: '20',
-        marginRight: theme.spacing.unit
+        marginRight: theme.spacing(1)
     },
     message: {
         display: 'flex',

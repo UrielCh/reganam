@@ -11,8 +11,8 @@ import Snackbar from './components/Snackbar'
 
 
 // screens
-import Notfound from '../src/containers/NotFound'
-import Home from '../src/containers/Home'
+import Notfound from './containers/NotFound'
+import Home from './containers/Home'
 
 
 import Loader from './components/Loader'

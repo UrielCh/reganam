@@ -15,7 +15,7 @@ export const cacheGet = (key) => {
 }
 
 // set in cache
-export const cacheSet = (key, value, expiration=0) => {
+export const cacheSet = (key: string, value: any, expiration=0) => {
     const cached = {
         expireAt: expiration===0 ? 0 : Date.now() + expiration*1000,
         value: value

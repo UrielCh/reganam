@@ -9,7 +9,7 @@ import IconCheckCircleOutline from '@material-ui/icons/CheckCircleOutline'
 
 import {getAppInfo, getCredentialInfo} from '../../ovh/api/me'
 
-const styles = theme => ({
+const styles = (theme: any) => ({
     root: {
         padding: theme.spacing(2),
         marginTop: theme.spacing(1),
@@ -31,8 +31,23 @@ const styles = theme => ({
     }
 })
 
-class Credential extends React.Component {
-    constructor(props) {
+interface IState {
+    initDone: boolean,
+    info: {
+        id: string,
+        applicationId: number,
+        applicationName: string,
+        applicationDescription: string,
+        ovhSupport: boolean,
+        creation: number,
+        expiration: number,
+        status: string,
+        rules: string[],
+    },
+}
+
+class Credential extends React.Component<IState, any> {
+    constructor(props: Readonly<{id: number}>) {
         super(props)
         const {id} = props
         this.state = {
